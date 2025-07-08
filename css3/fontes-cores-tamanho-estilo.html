@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes e Cores</title>
+
+    <!-- Fontes importadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #fccccc
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+        .formatacao {
+            background-color: #fdf5f5;
+            color: #a01616;
+            font-family: 'Honk';
+            text-align: center;
+            font-size: 3.5em;
+            box-shadow: 3px 5px 5px #00000044;
+
+            max-width: 300px;
+            padding: 15px;
+            margin: 15px auto;
+            border-radius: 50%;
+        }
+
+        div.conteudo-game {
+            margin: auto;
+            margin-top: 40px;
+            max-width: 850px;
+
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #poster-game {
+            max-width: 300px;
+            border-radius: 20px;
+            box-shadow: 3px 5px 5px #00000044;
+            margin: auto;
+        } 
+
+        .descricao-game {
+            max-width: 500px;
+            margin: 20px 10px;
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 1.4em;
+            text-align: justify;
+            line-height: 1.3em;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="formatacao"> Conteúdo </h1>
+
+    <div class="conteudo-game">
+        <img src="https://i.ebayimg.com/images/g/ZDsAAOSw8QtkcZic/s-l1200.jpg" alt="poster-game" id="poster-game">
+        <p class="descricao-game">
+            Red Dead Redemption é um jogo de ação em mundo aberto ambientado no Velho Oeste americano, no início do século XX, durante a transição entre a era dos fora-da-lei e a modernização da sociedade. O jogador assume o papel de John Marston, um ex-pistoleiro que é forçado a atravessar vastas planícies, desertos e montanhas para acertar contas com o seu passado. Ao longo de sua jornada, ele enfrenta desafios impostos tanto pela dura natureza selvagem quanto por pessoas com interesses próprios, enquanto tenta encontrar um lugar para si em um mundo que está mudando rapidamente.
+        </p>
+    </div>
+</body>
+</html>
