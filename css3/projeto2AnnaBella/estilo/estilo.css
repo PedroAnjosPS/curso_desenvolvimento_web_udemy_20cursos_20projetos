@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/*variáveis*/
+:root {
+    --cor1: #d2d2c1;
+    --cor2: #C5C5C1;
+    --cor3: #e8e8e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: var(--cor1) url("../arquivos-necessarios-projeto-anna-bella/fundo.png");
+}
+
+/*conteudo principal*/
+div.principal {
+    /*background: var(--cor3);*/
+    margin: auto;
+    max-width: 900px;
+    min-width: 400px;
+}
+
+/*banner do site*/
+div.principal > img#banner {
+    width: 100%;
+}
+
+/*nav-bar*/
+nav {
+    width: 100%;
+}
+
+nav > ul {
+    background-color: var(--cor2);
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+
+ul > li {
+    margin: 0px 6px;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: 700;
+    padding: 5px;
+}
+
+div.conteudo {
+    background: var(--cor3);
+    padding: 20px;
+}
+
+div.conteudo > h1 {
+    font-size: 1.3em;
+    color: #828271;
+    margin-bottom: 15px;
+}
+
+div.conteudo > p {
+    text-align: justify;
+    line-height: 1.4em;
+    text-indent: 1.8em;
+    font-size: 1.15em;
+    margin-bottom: 15px;
+}
+
+div#rodape > h4{
+    text-align: center;
+    padding: 20px;
+}
+
+/*imagens das campanhas publicitárias da modelo*/
+
+img.img-campanha {
+    border: 10px solid #c3c3ae;
+    margin-bottom: 15px;
+}
+
+div.contato {
+    line-height: 1.35em;
+    padding: 10px 15px;
+}
