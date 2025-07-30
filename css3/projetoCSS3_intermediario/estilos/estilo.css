@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* MODELO DE CAIXA */
+
+/*
+.conteudo {
+    border: 1px solid rgb(77, 77, 151);
+    padding: 20px;
+
+    margin: 10px;
+
+    width: 150px;
+}
+
+.conteudo2 {
+    border: 1px solid rgb(77, 77, 151);
+    padding: 20px;
+
+    margin: 50px;
+
+    width: 150px;
+}
+*/
+
+/*NOTICIA*/
+
+#noticia {
+    background-color: #16345c;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    
+    width: 500px;
+    height: 150px;
+    margin: auto;
+    padding: 15px;
+
+    transition: all 0.5s ease;
+}
+
+#noticia:hover {
+    height: 250px;
+}
